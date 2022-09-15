@@ -23,4 +23,11 @@ body {
   margin: auto;
   margin-top: 75px;
 }
+
+.left-mountain {
+  width: 300px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cbf1e4), to(#50b7ff));
+  background: linear-gradient(#cbf1e4, #50b7ff);
+}
 /*# sourceMappingURL=styles.css.map */
