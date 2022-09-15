@@ -6,4 +6,9 @@ body {
   height: 100vh;
   overflow: clip;
 }
+
+.ground {
+  height: 400px;
+  width: 100vw;
+}
 /*# sourceMappingURL=styles.css.map */
