@@ -1,4 +1,8 @@
 body {
   background: linear-gradient(45deg, #76c9ff, #f7ffde);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
 }
 /*# sourceMappingURL=styles.css.map */
