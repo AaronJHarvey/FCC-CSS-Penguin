@@ -70,4 +70,10 @@ body {
   border-bottom-left-radius: 65%;
   border-bottom-right-radius: 65%;
 }
+
+.penguin-body {
+  width: 53%;
+  height: 45%;
+  background: linear-gradient(45deg, #868585 0%, #eae7e7 25%, white 67%);
+}
 /*# sourceMappingURL=styles.css.map */
