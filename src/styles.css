@@ -65,5 +65,9 @@ body {
   width: 50%;
   height: 45%;
   background: linear-gradient(45deg, gray, #eff0e4);
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+  border-bottom-left-radius: 65%;
+  border-bottom-right-radius: 65%;
 }
 /*# sourceMappingURL=styles.css.map */
