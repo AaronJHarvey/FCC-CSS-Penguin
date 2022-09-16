@@ -7,23 +7,6 @@ body {
   overflow: clip;
 }
 
-.ground {
-  height: 400px;
-  width: 100vw;
-  background: -webkit-gradient(linear, left top, right top, from(#58afec), to(#b6ffff));
-  background: linear-gradient(90deg, #58afec, #b6ffff);
-  z-index: 3;
-  position: absolute;
-  margin-top: -58px;
-}
-
-.penguin {
-  height: 300px;
-  width: 300px;
-  margin: auto;
-  margin-top: 75px;
-}
-
 .left-mountain {
   width: 300px;
   height: 300px;
@@ -37,8 +20,8 @@ body {
 }
 
 .back-mountain {
-  height: 300px;
   width: 300px;
+  height: 300px;
   background: -webkit-gradient(linear, left top, left bottom, from(#cbf1e4), to(#2faaff));
   background: linear-gradient(#cbf1e4, #2faaff);
   position: absolute;
@@ -47,6 +30,23 @@ body {
           transform: rotate(45deg);
   left: 110px;
   top: 225px;
+}
+
+.penguin {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.ground {
+  width: 100vw;
+  height: 400px;
+  background: -webkit-gradient(linear, left top, right top, from(#58afec), to(#b6ffff));
+  background: linear-gradient(90deg, #58afec, #b6ffff);
+  z-index: 3;
+  position: absolute;
+  margin-top: -58px;
 }
 
 .sun {
