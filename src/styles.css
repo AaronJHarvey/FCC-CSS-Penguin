@@ -44,5 +44,9 @@ body {
   background: linear-gradient(#cbf1e4, #2faaff);
   position: absolute;
   z-index: 1;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 110px;
+  top: 225px;
 }
 /*# sourceMappingURL=styles.css.map */
