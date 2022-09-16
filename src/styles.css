@@ -18,7 +18,6 @@ body {
 }
 
 .penguin {
-  border: 1px solid green;
   height: 300px;
   width: 300px;
   margin: auto;
@@ -48,5 +47,11 @@ body {
           transform: rotate(45deg);
   left: 110px;
   top: 225px;
+}
+
+.sun {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
 }
 /*# sourceMappingURL=styles.css.map */
