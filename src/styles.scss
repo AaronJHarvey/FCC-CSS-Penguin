@@ -90,4 +90,7 @@ body {
 	background-color: grey;
 	top: 10%;
 	left: 25%;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	// can also be done with border-radius: 0% 0% 100% 100%
 }

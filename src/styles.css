@@ -95,5 +95,7 @@ body {
   background-color: grey;
   top: 10%;
   left: 25%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
