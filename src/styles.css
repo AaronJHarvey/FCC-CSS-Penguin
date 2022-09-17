@@ -90,5 +90,8 @@ body {
 .penguin-body::before {
   content: '';
   position: absolute;
+  height: 45%;
+  width: 50%;
+  background-color: grey;
 }
 /*# sourceMappingURL=styles.css.map */
