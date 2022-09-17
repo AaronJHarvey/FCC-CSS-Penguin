@@ -89,5 +89,6 @@ body {
 
 .penguin-body::before {
   content: '';
+  position: absolute;
 }
 /*# sourceMappingURL=styles.css.map */
