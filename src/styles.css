@@ -99,4 +99,10 @@ body {
   border-bottom-right-radius: 100%;
   opacity: 70%;
 }
+
+.face {
+  width: 60%;
+  height: 70%;
+  background-color: white;
+}
 /*# sourceMappingURL=styles.css.map */
