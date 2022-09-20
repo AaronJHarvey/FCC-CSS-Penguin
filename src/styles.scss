@@ -126,6 +126,12 @@ body {
 		height: 10%;
 		background-color: orange;
 		border-radius: 50%;
+
+		&.top {
+			width: 20%;
+			top: 60%;
+			left: 40%;
+		}
 	}
 }
 
