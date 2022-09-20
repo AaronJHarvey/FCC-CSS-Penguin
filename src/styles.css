@@ -120,6 +120,14 @@ body {
   border-radius: 50%;
 }
 
+.penguin-head .blush.left {
+  left: 15%;
+}
+
+.penguin-head .blush.right {
+  right: 15%;
+}
+
 .penguin-body {
   width: 53%;
   height: 45%;

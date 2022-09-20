@@ -112,6 +112,14 @@ body {
 		background-color: pink;
 		top: 65%;
 		border-radius: 50%;
+
+		&.left {
+			left: 15%;
+		}
+
+		&.right {
+			right: 15%;
+		}
 	}
 }
 
