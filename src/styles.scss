@@ -166,6 +166,12 @@ body {
 	top: 40%;
 	left: 23.5%;
 
+	.arm {
+		width: 30%;
+		height: 60%;
+		background: linear-gradient(90deg, gray, rgb(209, 210, 199));
+	}
+
 	.foot {
 		width: 15%;
 		height: 30%;
