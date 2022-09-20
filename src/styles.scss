@@ -175,10 +175,12 @@ body {
 
 		&.left {
 			left: 25%;
+			transform: rotate(80deg);
 		}
 
 		&.right {
 			right: 25%;
+			transform: rotate(-80deg);
 		}
 	}
 }

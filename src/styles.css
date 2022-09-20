@@ -182,10 +182,14 @@ body {
 
 .penguin-body .foot.left {
   left: 25%;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
 }
 
 .penguin-body .foot.right {
   right: 25%;
+  -webkit-transform: rotate(-80deg);
+          transform: rotate(-80deg);
 }
 
 .penguin * {
