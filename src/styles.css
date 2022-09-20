@@ -49,7 +49,7 @@ body {
 
 .ground {
   width: 100vw;
-  height: 400px;
+  height: calc(100vh - 300px);
   background: -webkit-gradient(linear, left top, right top, from(#58afec), to(#b6ffff));
   background: linear-gradient(90deg, #58afec, #b6ffff);
   z-index: 3;
