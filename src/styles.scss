@@ -180,6 +180,7 @@ body {
 			transform-origin: 0% 0%;
 			// can also do transform-origin: top left;
 			transform: rotate(130deg) scaleX(-1);
+			animation: wave 3s infinite linear;
 		}
 
 		&.right {
@@ -200,7 +201,6 @@ body {
 		&.left {
 			left: 25%;
 			transform: rotate(80deg);
-			animation: wave 3s infinite linear;
 		}
 
 		&.right {
@@ -226,6 +226,10 @@ body {
 	border-bottom-right-radius: 100%;
 	// can also be done with border-radius: 0% 0% 100% 100%
 	opacity: 70%;
+}
+
+.penguin:active {
+	transform: scale(1.5);
 }
 
 .face {

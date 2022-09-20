@@ -189,6 +189,8 @@ body {
           transform-origin: 0% 0%;
   -webkit-transform: rotate(130deg) scaleX(-1);
           transform: rotate(130deg) scaleX(-1);
+  -webkit-animation: wave 3s infinite linear;
+          animation: wave 3s infinite linear;
 }
 
 .penguin-body .arm.right {
@@ -211,8 +213,6 @@ body {
   left: 25%;
   -webkit-transform: rotate(80deg);
           transform: rotate(80deg);
-  -webkit-animation: wave 3s infinite linear;
-          animation: wave 3s infinite linear;
 }
 
 .penguin-body .foot.right {
@@ -236,6 +236,11 @@ body {
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
   opacity: 70%;
+}
+
+.penguin:active {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .face {
