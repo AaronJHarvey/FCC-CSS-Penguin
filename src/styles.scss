@@ -231,6 +231,9 @@ body {
 .penguin:active {
 	transform: scale(1.5);
 	cursor: not-allowed;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0ms;
 }
 
 .face {

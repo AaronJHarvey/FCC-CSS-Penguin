@@ -242,6 +242,12 @@ body {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
   cursor: not-allowed;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0ms;
+          transition-delay: 0ms;
 }
 
 .face {
