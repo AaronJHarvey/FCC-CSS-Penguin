@@ -185,6 +185,8 @@ body {
   left: 5%;
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
+  -webkit-transform: rotate(130deg) scaleX(-1);
+          transform: rotate(130deg) scaleX(-1);
 }
 
 .penguin-body .arm.right {
