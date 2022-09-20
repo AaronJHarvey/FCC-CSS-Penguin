@@ -183,6 +183,8 @@ body {
 .penguin-body .arm.left {
   top: 35%;
   left: 5%;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
 }
 
 .penguin-body .arm.right {
