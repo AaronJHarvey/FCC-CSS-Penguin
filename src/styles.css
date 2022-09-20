@@ -171,6 +171,12 @@ body {
   left: 23.5%;
 }
 
+.penguin-body .foot {
+  width: 15%;
+  height: 30%;
+  background-color: orange;
+}
+
 .penguin * {
   position: absolute;
 }
