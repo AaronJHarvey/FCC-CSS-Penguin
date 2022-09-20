@@ -171,6 +171,16 @@ body {
 		width: 30%;
 		height: 60%;
 		background: linear-gradient(90deg, var(--penguin-skin), rgb(209, 210, 199));
+
+		&.left {
+			top: 35%;
+			left: 5%;
+		}
+
+		&.right {
+			top: 0%;
+			right: -5%;
+		}
 	}
 
 	.foot {
