@@ -74,6 +74,12 @@ body {
   z-index: 1;
 }
 
+.penguin-head .chin {
+  height: 70%;
+  width: 90%;
+  background-color: white;
+}
+
 .penguin-body {
   width: 53%;
   height: 45%;
