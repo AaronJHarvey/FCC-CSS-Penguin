@@ -192,6 +192,8 @@ body {
 .penguin-body .arm.right {
   top: 0%;
   right: -5%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .penguin-body .foot {
