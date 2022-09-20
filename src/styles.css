@@ -251,4 +251,42 @@ body {
 .face.right {
   right: 5%;
 }
+
+@-webkit-keyframes wave {
+  10% {
+    -webkit-transform: rotate(110deg) scaleX(-1);
+            transform: rotate(110deg) scaleX(-1);
+  }
+  20% {
+    -webkit-transform: rotate(130deg) scaleX(-1);
+            transform: rotate(130deg) scaleX(-1);
+  }
+  30% {
+    -webkit-transform: rotate(110deg) scaleX(-1);
+            transform: rotate(110deg) scaleX(-1);
+  }
+  40% {
+    -webkit-transform: rotate(130deg) scaleX(-1);
+            transform: rotate(130deg) scaleX(-1);
+  }
+}
+
+@keyframes wave {
+  10% {
+    -webkit-transform: rotate(110deg) scaleX(-1);
+            transform: rotate(110deg) scaleX(-1);
+  }
+  20% {
+    -webkit-transform: rotate(130deg) scaleX(-1);
+            transform: rotate(130deg) scaleX(-1);
+  }
+  30% {
+    -webkit-transform: rotate(110deg) scaleX(-1);
+            transform: rotate(110deg) scaleX(-1);
+  }
+  40% {
+    -webkit-transform: rotate(130deg) scaleX(-1);
+            transform: rotate(130deg) scaleX(-1);
+  }
+}
 /*# sourceMappingURL=styles.css.map */
