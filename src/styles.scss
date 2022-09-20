@@ -200,6 +200,7 @@ body {
 		&.left {
 			left: 25%;
 			transform: rotate(80deg);
+			animation: wave 3s infinite linear;
 		}
 
 		&.right {
