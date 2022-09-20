@@ -95,6 +95,14 @@ body {
   border-radius: 50%;
 }
 
+.penguin-head .eye.left {
+  left: 25%;
+}
+
+.penguin-head .eye.right {
+  right: 25%;
+}
+
 .penguin-body {
   width: 53%;
   height: 45%;

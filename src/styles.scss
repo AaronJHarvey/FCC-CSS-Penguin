@@ -87,6 +87,14 @@ body {
 		background-color: black;
 		top: 45%;
 		border-radius: 50%;
+
+		&.left {
+			left: 25%;
+		}
+
+		&.right {
+			right: 25%;
+		}
 	}
 }
 
