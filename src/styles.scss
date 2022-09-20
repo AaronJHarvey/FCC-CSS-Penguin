@@ -172,6 +172,14 @@ body {
 		background-color: var(--penguin-picorna);
 		top: 85%;
 		border-radius: 50%;
+
+		&.left {
+			left: 25%;
+		}
+
+		&.right {
+			right: 25%;
+		}
 	}
 }
 

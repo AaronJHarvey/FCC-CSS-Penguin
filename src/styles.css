@@ -180,6 +180,14 @@ body {
   border-radius: 50%;
 }
 
+.penguin-body .foot.left {
+  left: 25%;
+}
+
+.penguin-body .foot.right {
+  right: 25%;
+}
+
 .penguin * {
   position: absolute;
 }
